@@ -1,0 +1,264 @@
+
+
+/* 
+A faire :
+-dégrader background
+-footer --> OK
++
+-contact --> OK
+-lien --> OK
+-barre de nav blanc --> OK
+*/
+
+
+body
+{
+background-color: #1b1d1f;
+color: white;
+}
+h1
+{
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 3%;
+
+}
+footer
+{
+    position: absolute;
+    top: 150%;
+    left: 36%;
+}
+#footer1
+{
+    position: absolute;
+    top: 125%;
+    left: 36%;
+}
+#footer2
+{
+    position: absolute;
+    top: 110%;
+    left: 36%;
+}
+#Logo
+{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 10%;
+    height: 9%;
+    width: 5%;
+    top: 3%;
+    left: 1%;
+}
+/* Toute les modification de ma barre de naviguation */
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    color: white;
+
+}
+/* Merci le boss pour l'aide pour les lein qui restent blanc */
+nav li {
+    margin: 0.5% 15px 0 0;
+    position: relative;
+    left: 28%;
+    a {
+      color: white;
+      outline: none;
+      text-decoration: none;
+      
+      &:active, &:focus {
+        color: white;
+      }
+    }
+  }
+
+nav a
+{
+    font-size: 1.8em;
+    color: 181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav a:hover
+{
+    color: red;
+    border-bottom: 3px solid red;
+
+}
+.nav
+{
+    left: 50%;
+
+}
+/* Modification du bouton d'IP */
+button 
+{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 19.5%;
+    top: 34.75%;
+}
+button:hover 
+{
+    background-color: fuchsia;
+}
+#button1
+{
+    border: 2px solid white;
+    background-color: white;
+    width: 25%;
+    height: 7.5%;
+    margin-left: 1%;
+}
+h2
+{
+    text-align: left;
+    font-size: 1.4em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffcc00;
+}
+p
+{
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #ffcc00;
+}
+#texte
+{
+    position: absolute;
+    top: 92%;
+}
+#texte2
+{
+    position: absolute;
+    top: 135%;
+}
+#texte3
+{
+    position: absolute;
+    bottom: -5%;
+}
+#MargeGauche
+{
+ margin-left: 1%;
+}
+
+/* décalage du paragraphe dans le cadre button */
+#join
+{
+    padding-left: 3%;
+}
+/* Image */
+.minia1
+{
+    height: 35%;
+    width: 25%;
+    border-radius: 10%;
+}
+
+#volcano
+{
+    position: absolute;
+    left: 33.5%;
+
+}
+#Yellowstone
+{
+    position: absolute;
+    left: 65.5%;
+
+}
+.name
+{
+    position: absolute;
+   left: 25.5%; 
+   bottom: 20%;
+}
+
+#Volcanop
+{
+    left: 58.75%;
+}
+#Yellowstonep
+{
+    left: 90.75%;
+}
+
+#annop
+{
+    bottom: -25%;
+}
+#PatchNote
+{
+    position: absolute;
+    left: 33.5%;
+    top: 100%;
+}
+#Discussion
+{
+    position: absolute;
+    left: 65.5%;
+    top: 100%;
+}
+#Annonce
+{
+    position: absolute;
+    top: 100%;
+}
+
+#Patchnop
+{
+    bottom: -25%;
+    left: 58.75%;
+}
+#Discunop
+{
+    left: 90.75%;
+    bottom: -25%;
+}
+/* Css page 2 */
+#Lore
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+}
+span
+{
+    text-decoration: underline;
+}
+.surligner
+{
+    color: white;
+}
+.red
+{
+    color: orange;
+}
+/* 3éme page image */
+#Staff
+{
+    position: absolute;
+    height: 40%;
+    width: 40%;
+}
+#Staffop
+{
+    position: absolute;
+    left: 15%;
+    top: 65%;
+}
